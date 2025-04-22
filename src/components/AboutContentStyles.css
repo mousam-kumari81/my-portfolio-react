@@ -1,0 +1,99 @@
+
+
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+
+ .about.left p{
+    margin: 1.2rem 0;
+}
+
+.about .right{
+    max-width: 700px;
+}
+
+.right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img{
+    max-width: 90%;
+    border:  1px solid #333;
+}
+
+.right .img-stack-top{
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+
+.right .img-stack-bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+} 
+
+.skillset{
+   border: 2px solid white;
+   padding: 20px;
+   box-shadow: 0.4px 8px rgba(0,0,0,0.1);
+   border-radius: 10px;
+   /*transition: border-color 0.3s, background-color 0.3s;*/
+   transition: all,0.3s ease;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   max-width: 300px;
+
+}
+
+.skillset:hover{
+    /* border-color: #cccccc;
+    background-color: brown; */
+
+    border-color: #007BFF;
+    background-color: brown;
+    box-shadow: 0.8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+    
+    
+
+
+}
+.skill{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+   
+}
+.hed{
+    font-size: larger;
+    padding: 8px;
+}
+.hed-to{
+    font-size: medium;
+}
+
+.skills{
+    font-size: larger;
+    margin: 2, 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
